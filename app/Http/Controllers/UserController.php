@@ -15,14 +15,14 @@ class UserController extends Controller
         //creates fake information
         $faker = \Faker\Factory::create();
         //get form input fields
-        $num_users = \Input::get("numUsers");
+        $numUsers = \Input::get("numUsers");
         $email = \Input::get("wantsEmail");
         $email = \Input::get("wantsPhone");  
         //creates the users array
         $users = Array();
         
         //add users to array
-        for ($i=0; $i < $num_users; $i++) 
+        for ($i=0; $i < $numUsers; $i++) 
         {
             $users[$i] = Array("name" => $faker->firstName);
             $users[$i] = array_merge($users[$i], Array("lastName" => $faker->lastName));
@@ -36,7 +36,6 @@ class UserController extends Controller
             };
         }
         return view('usercontroller')->with("users", $users);
-        //return $users;
     }
 
 }
