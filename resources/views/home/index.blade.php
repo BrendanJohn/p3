@@ -17,11 +17,11 @@ such as a page specific styesheets.
 
 @section('content')
     <div class="container theme-showcase" role="main">     
-            <h1>Developer's Best Friend</h1>
-            <h2>This Laravel application provides two resources for today`s savvy developer.</h2> 
+            <h1><strong>Developer's Best Friend</strong></h1>
+            <p>This Laravel application provides <strong>two</strong> resources for application development:</p> 
                 <ul>
-                    <li>One resource is a tool that generates a string of text called Lorem Ipsum. In publishing and graphic design, lorem ipsum (derived from Latin dolorem ipsum, translated as "pain itself") is a filler text commonly used to demonstrate the graphic elements of a document or visual presentation.</li>
-                    <li>The second tool generates random user data. This is jult like Lorem Ipsum, except for people.</li>
+                    <li>One resource is a tool that generates a string of text called <em>Lorem Ipsum</em>. In publishing and graphic design, lorem ipsum (derived from Latin dolorem ipsum, translated as "pain itself") is a filler text commonly used to demonstrate the graphic elements of a document or visual presentation.</li>
+                    <li>The second tool generates random user data. This is just like Lorem Ipsum, except for people.</li>
                 </ul>
     </div>
     <hr>
