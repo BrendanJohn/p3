@@ -5,3 +5,6 @@
 
 ## Description
 A web application called Developer's Best Friend which includes a Lorem Ipsum Generator and a Random User Generator.
+
+## Demo
+<http://screencast.com/t/G00gAdPgH>
