@@ -8,3 +8,10 @@ A web application called Developer's Best Friend which includes a Lorem Ipsum Ge
 
 ## Demo
 <http://screencast.com/t/G00gAdPgH>
+
+
+## Libraries
+* Bootstrap
+* jQuery
+* badcow/lorem-ipsum
+* fzaninotto/faker
