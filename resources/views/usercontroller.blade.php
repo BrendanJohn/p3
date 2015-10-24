@@ -25,7 +25,7 @@ such as a page specific styesheets.
                     echo "Name: " . $user['name'] . "  " . $user['lastName'] . "<br>";
                     if (isset($user['email']))
                     	echo "Email: " . $user['email'] . "<br>";
-                    if (isset($user['email']))
+                    if (isset($user['phoneNumber']))
                     	echo "Phone Number: " . $user['phoneNumber'] . "<br>";
                    echo "<hr>";
                 }

@@ -17,7 +17,7 @@ class UserController extends Controller
         //get form input fields
         $numUsers = \Input::get("numUsers");
         $email = \Input::get("wantsEmail");
-        $email = \Input::get("wantsPhone");  
+        $phone = \Input::get("wantsPhone");  
         //creates the users array
         $users = Array();
         
@@ -30,7 +30,7 @@ class UserController extends Controller
             {
                 $users[$i] = array_merge($users[$i], Array("email" => $faker->email));
             };
-            if ($email) 
+            if ($phone) 
             {
                 $users[$i] = array_merge($users[$i], Array("phoneNumber" => $faker->phoneNumber));
             };
