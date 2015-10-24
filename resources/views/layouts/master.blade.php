@@ -14,6 +14,7 @@
 
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet'>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/spacelab/bootstrap.min.css" rel="stylesheet" integrity="sha256-j7Dtnd7ZjexEiPNbscbopFn9+Cs0b3TLipKsWAPHZIM= sha512-RFhfi6P8zWMAJrEGU+CPjuxPh3r/UUBGqQ+/o6WKPIVZmQqeOipGotH2ihRULuQ8wsMBoK15TSZqc/7VYWyuIw==" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="/user.jpg">
 
     {{-- Yield any page specific CSS files or anything else you might want in the <head> --}}
     @yield('head')
@@ -30,9 +31,6 @@
     </section>
 
     <footer>
-        <div class="container">
-            &copy; {{ date('Y') }}
-        </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
